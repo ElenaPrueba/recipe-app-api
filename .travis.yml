@@ -3,6 +3,13 @@
 # Se integra sin problemas con GitHUb y automáticamente ejecuta el pipeline definido en cada push o pull requests
 # Testea y compila aplicaciones escritas en Ruby, NOde, Objetive-C, Go, Java, C y F (entre otras)
 # Posee su propia "Deploy engine" la cual permite a los desarrolladores testear por completo sus aplicaciones para luego realizar exitósamente el deploy sin sorpresas
+
+# Flake8
+# Flake8 es una herramienta para detectar errores de programación en Python que ayuda mucho mejorar tu código.
+# Esta herramienta puede extender sus funcionalidades mediante plugins.
+# "Linting" significa ejecutar una herramienta de calidad básica contra su código.
+# La herramienta verificará la sintaxis de su código y proporcionará instrucciones sobre cómo limpiarlo.
+
 language: python
 python:
   - "3.6"
