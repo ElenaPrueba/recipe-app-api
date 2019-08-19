@@ -1,4 +1,8 @@
 # Archivo que le dice a travis que hacer cada vez que se produce un cambio en nuestro proyecto
+# Travis-CI es un sistema de integración continua gratuita para proyectos OpenSource.
+# Se integra sin problemas con GitHUb y automáticamente ejecuta el pipeline definido en cada push o pull requests
+# Testea y compila aplicaciones escritas en Ruby, NOde, Objetive-C, Go, Java, C y F (entre otras)
+# Posee su propia "Deploy engine" la cual permite a los desarrolladores testear por completo sus aplicaciones para luego realizar exitósamente el deploy sin sorpresas
 language: python
 python:
   - "3.6"
