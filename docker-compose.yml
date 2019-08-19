@@ -1,0 +1,16 @@
+# Permite correr una imagen de docker facilmente desde una ruta de un proyecto
+# Nos permite gestionar los servicios de un proyecto
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    #para actualizar el contenedor
+    volumes:
+      - ./app:/app
+    command: >
+     sh -c "python manage.py runserver 0.0.0.0:8000"
+     
