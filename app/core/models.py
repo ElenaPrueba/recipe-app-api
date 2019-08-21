@@ -74,6 +74,7 @@ class Recipe(models.Model):
     price = models.DecimalField(max_digits=5, decimal_places=2)
     link = models.CharField(max_length=255, blank=True)
     ingredients = models.ManyToManyField('Ingredient')
+    # Es una foreignkey n-n : muchas recetas con muchos ingredientes
     tags = models.ManyToManyField('Tag')
 
     def __str__(self):
